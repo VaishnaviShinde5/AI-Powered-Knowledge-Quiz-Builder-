@@ -116,7 +116,7 @@ the frontend directly, so no separate frontend server is needed.
 ### Quiz Generated
 ![Quiz Generated](quiz-builder/OUTPUT%20SS/OUTPUT1.png)
 
-### Answer Submission
+### Quiz Generated
 ![Answer Submission](quiz-builder/OUTPUT%20SS/OUTPUT2.png)
 
 ### Score & Explanation
