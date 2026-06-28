@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Knowledge Quiz Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 AI Knowledge Quiz Builder</h1>
+    <p class="subtitle">Enter any topic. Get a 5-question quiz, instantly.</p>
+
+    <!-- Screen 1: topic input -->
+    <div id="topic-screen" class="screen">
+      <input
+        id="topic-input"
+        type="text"
+        placeholder="e.g. Photosynthesis, Neural Networks, Ancient Rome"
+      />
+      <button id="generate-btn">Generate Quiz</button>
+      <p id="loading-text" class="hidden">Generating your quiz... ⏳</p>
+      <p id="error-text" class="error hidden"></p>
+    </div>
+
+    <!-- Screen 2: quiz in progress -->
+    <div id="quiz-screen" class="screen hidden">
+      <h2 id="quiz-topic"></h2>
+      <div id="questions-container"></div>
+      <button id="submit-btn">Submit Answers</button>
+    </div>
+
+    <!-- Screen 3: results -->
+    <div id="results-screen" class="screen hidden">
+      <h2 id="score-display"></h2>
+      <div id="results-container"></div>
+      <button id="restart-btn">Try Another Topic</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
