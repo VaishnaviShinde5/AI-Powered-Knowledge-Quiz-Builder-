@@ -106,3 +106,18 @@ the frontend directly, so no separate frontend server is needed.
 | LLM         | Groq (`llama-3.1-8b-instant`) |
 | Retrieval   | Wikipedia REST API       |
 | Frontend    | Vanilla HTML/CSS/JS      |
+
+
+## Output Screenshots
+
+### Home Page
+![Home Page](quiz-builder/OUTPUT%20SS/OUTPUT0.png)
+
+### Quiz Generated
+![Quiz Generated](quiz-builder/OUTPUT%20SS/OUTPUT1.png)
+
+### Answer Submission
+![Answer Submission](quiz-builder/OUTPUT%20SS/OUTPUT2.png)
+
+### Score & Explanation
+![Score](quiz-builder/OUTPUT%20SS/OUTPUT3.png)
